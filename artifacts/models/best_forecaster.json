@@ -1,0 +1,26 @@
+{
+  "model_name": "LSTMForecaster",
+  "model_path": "artifacts\\models\\LSTMForecaster.pt",
+  "scaler_path": "artifacts\\models\\forecaster_scaler.pkl",
+  "forecast_score": 0.9500000000000001,
+  "forecast_mae": 2.447739601135254,
+  "forecast_rmse": 4.710873603820801,
+  "forecast_r2": 0.9925114512443542,
+  "latency_ms": 1.532233499965514,
+  "feature_names": [
+    "cpu_percent",
+    "mem_percent",
+    "swap_percent",
+    "io_read_mb",
+    "io_write_mb",
+    "net_in_mb",
+    "net_out_mb",
+    "psi_cpu",
+    "psi_mem",
+    "psi_io",
+    "process_count",
+    "blocked_processes"
+  ],
+  "window_size": 30,
+  "forecast_horizon": 10
+}

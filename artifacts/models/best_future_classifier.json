@@ -1,0 +1,30 @@
+{
+  "model_name": "LSTMClassifier",
+  "classifier_type": "future",
+  "model_path": "artifacts\\models\\LSTMClassifier_future_classifier.pt",
+  "scaler_path": "artifacts\\models\\classifier_scaler.pkl",
+  "classification_score": 0.9716449905189563,
+  "accuracy": 0.9738636363636364,
+  "macro_f1": 0.958111652048614,
+  "weighted_f1": 0.9741759381136825,
+  "high_recall": 0.9742489270386266,
+  "critical_recall": 0.9846625766871165,
+  "latency_ms": 0.6637700000283075,
+  "feature_names": [
+    "cpu_percent",
+    "mem_percent",
+    "swap_percent",
+    "io_read_mb",
+    "io_write_mb",
+    "net_in_mb",
+    "net_out_mb",
+    "psi_cpu",
+    "psi_mem",
+    "psi_io",
+    "process_count",
+    "blocked_processes"
+  ],
+  "input_time": 10,
+  "window_size": 30,
+  "forecast_horizon": 10
+}

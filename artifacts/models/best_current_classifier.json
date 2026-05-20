@@ -1,0 +1,30 @@
+{
+  "model_name": "MLPClassifier",
+  "classifier_type": "current",
+  "model_path": "artifacts\\models\\MLPClassifier_current_classifier.pt",
+  "scaler_path": "artifacts\\models\\classifier_scaler.pkl",
+  "classification_score": 0.9673334635227081,
+  "accuracy": 0.9775641025641025,
+  "macro_f1": 0.9597768264998692,
+  "weighted_f1": 0.9776365375820866,
+  "high_recall": 0.9716981132075472,
+  "critical_recall": 0.9625468164794008,
+  "latency_ms": 0.1550445000611944,
+  "feature_names": [
+    "cpu_percent",
+    "mem_percent",
+    "swap_percent",
+    "io_read_mb",
+    "io_write_mb",
+    "net_in_mb",
+    "net_out_mb",
+    "psi_cpu",
+    "psi_mem",
+    "psi_io",
+    "process_count",
+    "blocked_processes"
+  ],
+  "input_time": 30,
+  "window_size": 30,
+  "forecast_horizon": 10
+}

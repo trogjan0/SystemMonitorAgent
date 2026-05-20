@@ -1,0 +1,2 @@
+method,accuracy,macro_f1,weighted_f1,high_recall,critical_recall
+separated_pipeline,0.970164609053498,0.9601440097573667,0.9699894450141824,0.9607843137254902,1.0
